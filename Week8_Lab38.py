@@ -13,5 +13,10 @@ W = np.array([
 print("X shape: ", X.shape) # (3, 3)
 print("\nW shape: ", W.shape) # (3, 2)
 
+
 res = np.dot(X, W)
 print("\nres shape: ", res.shape) #(2, 2)
+
+
+X_T = X.T # (3, 2)
+print("X shape:", X.shape, "X_T shape:", X_T.shape)
